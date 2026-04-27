@@ -51,6 +51,21 @@ Open [http://localhost:3000](http://localhost:3000)
 npm run build
 npm start
 ```
+
+
+| What AI helped with | What I modified/improved |
+| What AI helped with | What I verified / improved manually |
+|---|---|
+| Component scaffolding for all sections | Adjusted color palette and spacing to match reference more closely |
+| Initial Tailwind class structure | Fixed the `styled-jsx` server component bug manually |
+| Copy/content from reference site scan | Reorganized section order for better UX flow |
+| API route boilerplate | Added proper TypeScript types and email regex validation |
+| Animation CSS | Tuned timing and delays for smoother feel |
+| Scaffolding all component files | Caught and fixed the Tailwind v4 `@import` bug — AI generated v3 syntax |
+| Writing Tailwind class structures | Reviewed every component for visual consistency and spacing |
+| API route boilerplate | Added TypeScript types, email regex validation, and proper HTTP status codes |
+| Animation CSS keyframes | Tuned timing and delays so animations feel smooth, not jarring |
+| Content copy from reference site scan | Verified section order made UX sense, reorganized flow |
 ## Approach Taken
 
 1. **Scanned the reference site** to map every section, content block, and UI pattern before writing a single line of code
