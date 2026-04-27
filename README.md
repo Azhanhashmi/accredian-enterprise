@@ -106,9 +106,3 @@ This project was built with assistance from **Claude (Anthropic)**:
 - **Optimize font loading** — move Google Fonts to `next/font` for zero layout shift and better performance scores
 - **Image optimization** — use `next/image` for all images with proper `width`, `height`, and `priority` attributes
 - **Bundle analysis** — run `@next/bundle-analyzer` to identify and eliminate unnecessary JS weight
-
-### What Would Make This Stand Out in a Real Interview
-- A working `/dashboard` route that shows the analytics UI teased in the hero section
-- Persisted lead data viewable at `/api/lead` (GET) with a simple admin table at `/admin`
-- A Lighthouse score above 90 across all four categories
-- Clean git history with meaningful commit messages, not one giant "initial commit"
