@@ -30,14 +30,6 @@ A faithful recreation of the [Accredian Enterprise](https://enterprise.accredian
 | **CTA Banner** | Mid-page call-to-action |
 | **Contact Form** | Lead capture form with validation + API integration ✅ Bonus |
 | **Footer** | Full links, social icons, legal |
-
----
-# Accredian Enterprise — Landing Page Clone
-
-A recreation of the [Accredian Enterprise](https://enterprise.accredian.com/) landing page built with **Next.js 15 (App Router)**, **TypeScript**, and **Tailwind CSS v4**. Includes a fully functional lead capture form backed by a Next.js API route.
-
----
-
 ## Setup Instructions
 
 ```bash
@@ -59,21 +51,6 @@ Open [http://localhost:3000](http://localhost:3000)
 npm run build
 npm start
 ```
-
-### Fix required before running (Tailwind v4)
-In `app/globals.css`, replace:
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-with:
-```css
-@import "tailwindcss";
-```
-
----
-
 ## Approach Taken
 
 1. **Scanned the reference site** to map every section, content block, and UI pattern before writing a single line of code
